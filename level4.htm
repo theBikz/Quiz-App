@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>level4</title>
+<link rel="stylesheet" media="screen" href="style.css" type="text/css">
+</head>
+<body style="background-color:black;">
+<script>
+function validate(){
+var value1=document.getElementById('value1');
+if(value1.value=='') {
+        alert('Enter the word');
+        return false;
+}
+}        
+        
+</script>
+ <div class="h1">   
+<h1>LEVEL 4</h1><br>
+</div>
+<ol>
+                I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I? <br><br>
+
+                This riddle aims to confuse you and get you to focus on the things that are missing: the houses, trees, and fish.<br>
+                 You might guess you need to think about something inanimate.
+                 <br><br>
+</ol>
+
+<form method="GET" action="action4.php" onsubmit="return validate()">
+<input type="text" name="value1" id="value1" placeholder="Enter the word"> <br>     
+        
+ 
+<!-- <a href="map2.html>   -->
+        <input type="submit" value="CONTINUE" >
+<!-- </a> -->
+
+</form>        
+
+
+
+
+
+</body>
+</html>

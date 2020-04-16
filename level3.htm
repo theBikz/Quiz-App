@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>level3</title>
+<link rel="stylesheet" media="screen" href="style.css" type="text/css">
+</head>
+<body style="background-color:black;">
+<script>
+function validate(){
+var value1=document.getElementById('value1');
+if(value1.value=='') {
+        alert('Enter the word');
+        return false;
+}
+}        
+        
+</script>
+ <div class="h1">   
+<h1>LEVEL 3</h1><br>
+</div>
+<ol>
+                What English word has three consecutive double letters? <br><br>
+
+                This one is pretty impossible, but use the facts you know about English to get on track. <br>
+                First, think of words with double vowels.
+                 And you must know this is probably going to be a compound word.<br> The first and last letters of those combined words will form one set of double letters.<br>
+                 Now, just wrack your brain!
+                <br><br>
+</ol>
+
+<form method="GET" action="action3.php" onsubmit="return validate()">
+<input type="text" name="value1" id="value1" placeholder="Enter the word"> <br>     
+        
+ 
+<!-- <a href="map2.html>   -->
+        <input type="submit" value="CONTINUE" >
+<!-- </a> -->
+
+</form>        
+
+
+
+
+
+</body>
+</html>
